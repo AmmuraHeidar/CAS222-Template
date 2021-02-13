@@ -1,0 +1,104 @@
+/*
+File Name: style.less
+Date: Feb 2021
+Programmer: Ammura Heidar
+*/
+
+/* MOBILE STYLES */
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5em;
+    background-color: #e6fff7;
+    font-size: 16px;
+    margin: 0 1em;
+}
+
+h1 {
+    margin: 1em 0;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 2em;
+}
+
+h2 {
+    margin: 1em 0;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+p {
+    margin: 1em 0;
+}
+
+ol {
+    list-style: decimal;
+    margin-left: 25px;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #9F00C5;
+    text-align: center;
+}
+
+#container {
+    margin: 0 1em;
+}
+
+#wraper {
+    margin: 0 1em;
+}
+
+main {
+    margin: 0 1em;
+    padding: 0 1em;
+}
+
+
+/* TABLET STYLES */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 15px;
+        margin: 0 4%;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0.8em;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    ol {
+        margin-bottom: 15px;
+    }
+
+    ol li {
+        margin-left: 8px;
+    }
+
+    ul {
+        margin-bottom: 1em;
+    }
+}
+
+/* DESKTOP STYLES */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 14px;
+        margin: 0 3%;
+    }
+}
